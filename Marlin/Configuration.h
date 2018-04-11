@@ -386,9 +386,9 @@
   //#define DEFAULT_Kd 440
 
   //Makerfarm Pegasus 10 with E3D v6 on 12v
-  #define DEFAULT_Kp 19.62
-  #define DEFAULT_Ki 1.07
-  #define DEFAULT_Kd 90.00
+  #define DEFAULT_Kp 18.28
+  #define DEFAULT_Ki 1.12
+  #define DEFAULT_Kd 74.86
 #endif // PIDTEMP
 
 //===========================================================================
