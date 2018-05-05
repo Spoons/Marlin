@@ -387,9 +387,9 @@
   //#define DEFAULT_Kd 440
 
   //Makerfarm Pegasus 10 with E3D v6 on 12v
-  #define DEFAULT_Kp 18.28
-  #define DEFAULT_Ki 1.12
-  #define DEFAULT_Kd 74.86
+  #define DEFAULT_Kp 15.8
+  #define DEFAULT_Ki 0.85
+  #define DEFAULT_Kd 73.76
 #endif // PIDTEMP
 
 //===========================================================================
@@ -720,7 +720,7 @@
 #define MIN_PROBE_EDGE 10
 #define X_PROBE_OFFSET_FROM_EXTRUDER -42  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER 0  // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -1.2   // Z offset: -below +above  [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -2.4   // Z offset: -below +above  [the nozzle]
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 8000
