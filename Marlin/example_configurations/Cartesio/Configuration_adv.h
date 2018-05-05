@@ -493,9 +493,6 @@
 // Include a page of printer information in the LCD Main Menu
 //#define LCD_INFO_MENU
 
-// Leave out seldom-used LCD menu items to recover some Program Memory
-//#define SLIM_LCD_MENUS
-
 // Scroll a longer status message into view
 //#define STATUS_MESSAGE_SCROLLING
 
@@ -554,6 +551,16 @@
 
   // Add an option in the menu to run all auto#.g files
   //#define MENU_ADDAUTOSTART
+
+  /**
+   * Continue after Power-Loss (Creality3D)
+   *
+   * Store the current state to the SD Card at the start of each layer
+   * during SD printing. If the recovery file is found at boot time, present
+   * an option on the LCD screen to continue the print from the last-known
+   * point in the file.
+   */
+  //#define POWER_LOSS_RECOVERY
 
   /**
    * Sort SD file listings in alphabetical order.
