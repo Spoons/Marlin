@@ -385,9 +385,9 @@
   /* #define DEFAULT_Kd 114 */
 
     // Makerfarm Pegasus 10
-    #define DEFAULT_Kp 27.43
-    #define DEFAULT_Ki 2.08
-    #define DEFAULT_Kd 90.45
+    #define DEFAULT_Kp 25.86
+    #define DEFAULT_Ki 1.95
+    #define DEFAULT_Kd 85.81
 
     // MakerGear
     //#define DEFAULT_Kp 7.0
